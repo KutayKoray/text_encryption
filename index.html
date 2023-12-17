@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Encryption</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Encryption</h1>
+    <form id="cipherForm">
+      <label for="plaintext">Enter plaintext:</label>
+      <input type="text" id="plaintext" required>
+
+      <label for="shift">Enter shift value:</label>
+      <input type="number" id="shift" required>
+
+      <button type="button" onclick="encrypt()">Encrypt</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="encriptyion.js"></script>
+</body>
+</html>
